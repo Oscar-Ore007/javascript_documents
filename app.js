@@ -6,10 +6,12 @@
 // }
 // console.log("After conditional")
 
-const dayOfWeek = 'Saturday';
+const dayOfWeek = 'Thursday';
 
 if (dayOfWeek === 'Monday') {
     console.log('Ugh I hate Mondays!')
 } else if (dayOfWeek === 'Saturday') {
     console.log("yay! I love saturday")
+} else {
+    console.log('meh')
 }
